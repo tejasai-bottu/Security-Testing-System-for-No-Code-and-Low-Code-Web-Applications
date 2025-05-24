@@ -1,0 +1,2 @@
+# Security-Testing-System-for-No-Code-and-Low-Code-Web-Applications
+Developed an automated system that scans no-code/low-code web apps for security vulnerabilities using tools like OWASP ZAP, Nikto, and SQLmap. It uses a local AI model (Gemma3) to analyze results and generate user-friendly HTML reports. The system improves security awareness and reduces manual effort, making it ideal for non-technical users.
