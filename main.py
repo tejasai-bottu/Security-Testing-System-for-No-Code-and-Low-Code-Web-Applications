@@ -73,7 +73,7 @@ def get_clean_summary(raw_text):
     headers = {
         "Authorization": "Bearer sk-8530180641364088ac461b549816102d",
         "Content-Type": "application/json",
-        "x-jwt-token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVjMTkxN2IwLTdkNTQtNDY5MS1iYzgzLWE1MDdkMmI3MDE3ZiJ9.PwDNNv1ynrwOjO9-GIlfP38K4c9JJmy_0kb04fVg_sA"
+        "x-jwt-token": "your token"
     }
 
     response = requests.post(API_URL, json=payload, headers=headers)
@@ -467,7 +467,7 @@ def fill_html_template_with_content(cleaned_text, output_filename):
     headers = {
         "Authorization": "Bearer sk-8530180641364088ac461b549816102d",
         "Content-Type": "application/json",
-        "x-jwt-token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVjMTkxN2IwLTdkNTQtNDY5MS1iYzgzLWE1MDdkMmI3MDE3ZiJ9.PwDNNv1ynrwOjO9-GIlfP38K4c9JJmy_0kb04fVg_sA"
+        "x-jwt-token": "your token"
     }
 
     response = requests.post(API_URL, json=payload, headers=headers)
